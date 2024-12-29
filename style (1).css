@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  font-family: "Ysabeau SC", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.img1{
+    width: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-sec-2 input{
+    border: none;
+    width: 100%;
+    align-items: center;
+}
+.nav-sec-2{
+    border: solid black 1px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+
+}
+.nav-sec-2 input:focus{
+    outline: none;
+}
+.nav-sec-3{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.catogories{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+.catogories p{
+    background-color: #A435F0;
+    border: solid #A435F0 1px;
+    border-radius: 10px;
+    padding: 5px;
+    color: rgba(253, 253, 253, 0.979);
+}
+.sale-img img{
+    width: 100%;
+
+}
+.recommended{
+    padding: 10px;
+    margin: 1px;
+}
+.course-recommended{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.course-card{
+width: 190px;
+border: solid rgb(19, 18, 19) 1px;
+margin: 10px;
+border-radius: 5px;
+}
+.course-card img{
+    width: 100%;
+    border-bottom: solid black 1px;
+}
+.course-card h2,p{
+    color: #19181a;
+    padding: 5px;
+
+}
+.topics{
+    padding: 7px;
+}
+.topics-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.topics-container p{
+    border: solid black 1px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 5px;
+}
+.sec-1f{
+    display: flex;
+    padding: 5px;
+}
+.sec-2f{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.sec-1f-1 p,h6{
+    margin: 10px;
+    color: #f3eeee;
+}
+.sec-1f-2 p{
+    margin: 10px;
+    color: rgb(242, 244, 247);
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.sec-2f p{
+    color: aliceblue;
+}
