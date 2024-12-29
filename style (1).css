@@ -1,6 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+  font-family: "Ysabeau SC", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .navbar{
     display: flex;
@@ -11,8 +15,15 @@
     gap: 10px;
 }
 .nav-sec-1-title{
-    color: #A435F0;
+     color: #A435F0;
+    font-size: xx-large;
 }
+.img1{
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
 .nav-sec-2 input{
     border: none;
     width: 100%;
@@ -34,6 +45,7 @@
 .nav-sec-3{
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 .catogories{
     display: flex;
@@ -46,7 +58,7 @@
     border: solid #A435F0 1px;
     border-radius: 10px;
     padding: 5px;
-    color: white;
+    color: rgba(253, 253, 253, 0.979);
 }
 .sale-img img{
     width: 100%;
@@ -64,10 +76,22 @@
     justify-content: space-around;
 }
 .course-card{
-width: 200px;
+width: 190px;
+border: solid rgb(19, 18, 19) 1px;
+margin: 10px;
+border-radius: 5px;
 }
 .course-card img{
     width: 100%;
+    border-bottom: solid black 1px;
+}
+.course-card h2,p{
+    color: #19181a;
+    padding: 5px;
+
+}
+.topics{
+    padding: 7px;
 }
 .topics-container{
     display: flex;
@@ -91,11 +115,13 @@ width: 200px;
     padding: 5px;
     align-items: center;
 }
-.sec-1f-1 p{
+.sec-1f-1 p,h6{
     margin: 10px;
+    color: #f3eeee;
 }
 .sec-1f-2 p{
-    margin: 10px
+    margin: 10px;
+    color: aliceblue;
 }
 .footer{
     background-color: black;
